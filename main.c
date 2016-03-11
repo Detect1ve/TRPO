@@ -3,8 +3,9 @@
 
 int main()
 {
-	int a, b, c;
+	int a, b, c, d;
 	printf("Input value: ");
 	scanf("%d%d%d", &a, &b, &c);
+	d = b * b - 4 * a * c;
 	return 0;
 }
